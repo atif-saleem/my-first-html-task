@@ -196,13 +196,14 @@ line-height: 120px;
   color: #5c5c5c;
 }
 .left-down .readmore {
-  font-size: 1.1vw;
   color: #fff;
-  padding: 19px 45px;
+  padding: 19px 52px;
   border-radius: 13px;
   border: none;
+  font-weight: 600;
   background-color: rgba(99,68,197);
   cursor: pointer;
+  letter-spacing: 1px;
   margin-top: 5px;
 }
 .body-right .right-upper {
@@ -225,7 +226,6 @@ line-height: 120px;
 }
 .right-down .about-me {
   color: #0e1019;
-  font-size: 1.5vw;
   font-weight: 550;
 }
 .about-me .separate {
@@ -270,7 +270,7 @@ line-height: 120px;
   margin-bottom: 20px;
 }
 .skill-left-down .skill-heading {
-  padding: 10px 5px;
+  padding: 10px 0px;
   font-size: 2.3vw;
   font-weight: 550;
 }
@@ -356,7 +356,6 @@ line-height: 120px;
   border-radius: 10px;
   border: none;
   background-color: #fff;
-  font-size: 1.3vw;
   font-weight: 500;
   cursor: pointer;
 }
@@ -717,30 +716,50 @@ font-weight: 750;
  
 }
 .contact-rap{
-  padding: 10px 0px;
+  padding: 15px 0px;
   border-bottom: 1px solid #908f8f;
   
 }
 .contact-rap .contact-para{
-  font-size: 1vw;
+ 
   color: #777777;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.contact-follow{
+  font-size: 14px;
+  margin: 20px 0px;
+
 }
 .contact-head04{
-  font-size: 1.8vw;
   font-weight: 600;
 }
 .left-icon{
   display: flex;
-  gap: 10px;
+  gap: 8px;
+
+}
+ .left-icon .icon-bg{
+  background-color: rgb(98, 68, 197);
+  padding: 8px 10px;
+  border-radius: 10px;
+  
+}
+ .left-icon .icon-bg01{
+  background-color: rgb(98, 68, 197);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+ .left-icon .icon-bg03{
+  background-color: rgb(98, 68, 197);
+  padding: 8px 12px;
+  border-radius: 10px;
+  
 }
 .left-icon i{
-  font-size: 20px;
-  padding: 5px 5px;
+  font-size: 13px;
   color: #fff;
-  background-color: rgb(42, 8, 129);
-  border-radius: 5px;
   cursor: pointer;
+  background-color: rgb(42, 8, 129);
 }
 .contact-right-para{
   font-size: 15px;
@@ -752,27 +771,30 @@ font-weight: 750;
 }
 .contact-input{
   width: 49.5%;
-  padding: 15px 10px;
+  padding: 20px 13px;
 border-radius: 10px;
 margin-bottom: 10px;
-font-weight: bold;
+font-weight: 540;
+font-size: 16px;
 border: 1px solid #bebbbb;
 }
 .contact-input01{
    width: 100%;
-  padding: 15px 10px;
+  padding: 20px 13px;
 border-radius: 10px;
 margin-bottom: 10px;
-font-weight: bold;
+font-weight: 540;
+font-size: 16px
+;
 border: 1px solid #bebbbb;
 
 
 }
 .contact-area{
   width: 100%;
-  padding: 16px 10px;
+  padding: 16px 10px 26px 10px;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: 540;
 border: 1px solid #bebbbb;
 font-size: 16px;
 
@@ -841,6 +863,7 @@ justify-content: space-between;
   
   .hero-left .hero-content {
     margin-left: 3px;
+    padding: 0px 10px;
   }
   .hero-left {
     background-size: 60vw;
@@ -912,9 +935,7 @@ line-height: 50px;
     letter-spacing: 9px;
     margin-left: 5px;
   }
-  .left-down .readmore {
-    font-size: 2vh;
-  }
+ 
   .left-down .description {
     font-size: 1.5vh;
     color: #4f4f4f;
@@ -927,7 +948,6 @@ line-height: 50px;
   }
 
   .right-down .about-me {
-    font-size: 1.9vh;
     font-weight: 600;
   }
   .about-me .separate {
@@ -966,6 +986,9 @@ line-height: 50px;
   margin-bottom: 0px;
 
 }
+.skill-left .skill-left-upper{
+  padding: 10px 0px;
+}
 .skill-right {
 margin-top: 20px;
 padding: 0px;
@@ -980,7 +1003,6 @@ padding: 0px;
 .skill-right-upper button {
   padding: 18px 50px;
 border: 1px solid blue;
-  font-size: 1.5vh;
 
 }
 .skill-right01 .skill-right01-right {
@@ -988,6 +1010,9 @@ border: 1px solid blue;
 }
 .services-upper .services-head{
   font-size: 3vh;
+}
+.left-down{
+  padding: 20px 0px;
 }
 .services-main{
   /* height: 100vh; */
@@ -1157,14 +1182,14 @@ font-size: 3vh;
 .contact-down{
   flex-direction: column;
 }
-.left-icon i{
+/* .left-icon i{
   font-size: 14px;
   padding: 5px 5px;
   color: #fff;
   background-color: rgb(42, 8, 129);
-  border-radius: 5px;
   cursor: pointer;
-}
+  border-radius: 17px;
+} */
 .contact-left{
   width: 100%;
 }
@@ -1174,12 +1199,10 @@ font-size: 3vh;
 .contact-rap{
     padding: 0px;
 }
-.contact-rap .contact-para{
-  font-size: 1.5vh;
-}
+
 .contact-head04{
-  font-size: 1.8vh;
   margin-bottom: 5px;
+  font-size: 16px;
 }
 .contact-para{
   margin-top: 5px;
@@ -1201,7 +1224,6 @@ font-size: 3vh;
   .skill-right-upper button {
   padding: 18px 50px;
 border: 1px solid blue;
-  font-size: 1.5vh;
 
 }
 .skill-right-upper {
